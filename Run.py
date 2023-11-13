@@ -1,12 +1,12 @@
 import os, platform
 try:
-    import requests
+    import httpx
 except:
-    os.system('pip install requests')
+    os.system('pip install httpx')
 os.system('git pull')
 print('\033[1;32m [•] Follow For Updates')
 os.system('xdg-open https://www.facebook.com/hackerbaba4')
-import requests
+import httpx
 bit = platform.architecture()[0]
 if bit == '64bit':
     from Pro import Baba
